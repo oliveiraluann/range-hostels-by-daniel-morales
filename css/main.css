@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen';
 }
 
-.clearfix::after {
+.clearfix::after, .row::after {
     content: '';
     display: block;
     clear: both;
@@ -182,5 +182,27 @@ h1, h2, h3, h4, h5, h6 {
 
     .top-content-title, .top-content-subtitle {
         color: white;
+    }
+
+    .col-1_4 {
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+
+    .main-content-article .btn {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+    .top-content {
+        /*
+        background-color: #521a66;
+        background-image: url(../images/bg_topo_1198x670.jpg);
+        */
+        background: #521a66 url(../images/bg_topo_1198x670.jpg);
+        height: 15em; 
+        padding: 15em;
     }
 }
