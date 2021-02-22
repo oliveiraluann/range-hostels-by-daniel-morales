@@ -8,6 +8,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen';
 }
 
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+}
+
 .btn {
     display: inline-block;
     padding: .75em 1.5em;
@@ -69,23 +77,66 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
 
-.midle-content {
+.middle-content {
     padding: 2em;
     background: #f6f6f6;
     text-align: center;
 }
 
-.midle-content-title {
+.middle-content-title {
     font-size: 1.25em;
     color: #652e78;
 }
 
-.midle-content p {
+.middle-content p {
     line-height: 1.5;
     color: #222;
 }
 
-.midle-content span[class^="icon"] {
+.middle-content span[class^="icon"] {
     font-size: 3.5em;
     color: #652e78;
+}
+
+.main-content {
+    padding: 2em;
+}
+
+.main-content p {
+    line-height: 1.2;
+}
+
+.main-content-article {
+    margin-bottom: 3.5em;
+}
+
+.main-content-title {
+    letter-spacing: .2em;
+    font-size: 1.25em;
+    color: #652e78;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.footer {
+    background: #25303e;
+    color: #83969f;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.footer-menushare {
+    background: #303d4c;
+    padding: .5em;
+}
+
+.footer-menushare li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.footer-menushare a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: whitesmoke;
 }
