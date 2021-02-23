@@ -14,6 +14,12 @@ h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
 
+.max-width {
+    max-width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hidden {
     width: 0;
     height: 0;
@@ -33,6 +39,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn:hover {
     background: #37a0a0;
+}
+
+.icon-play {
+    height: 5em;
+    display: none;
+}
+
+.icon-play img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .top-header {
@@ -152,6 +168,10 @@ h1, h2, h3, h4, h5, h6 {
         float: left;
     }
 
+    .icon-play {
+        display: block;
+    }
+
     .top-nav {
         background: transparent;
         float: right;
@@ -202,7 +222,35 @@ h1, h2, h3, h4, h5, h6 {
         background-image: url(../images/bg_topo_1198x670.jpg);
         */
         background: #521a66 url(../images/bg_topo_1198x670.jpg);
-        height: 15em; 
-        padding: 15em;
+        background-position: center;
+        height: 20em; 
+        padding: 17em;
+    }
+}
+
+@media screen and (min-width: 74em) {
+    .top-content {
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        padding: 19em 20em 10em;
+        background-position: center top;
+    }
+
+    .icon-play {
+        display: block;
+    }
+
+    .col-1_4 {
+        width: 23%;
+        margin: 1%;
+    }
+
+    .col-1_2 {
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+
+    .main-content-article .btn {
+        float: none;
     }
 }
