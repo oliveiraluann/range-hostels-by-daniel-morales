@@ -1,0 +1,1 @@
+Projeto de Página Web voltado para responsividade de dispositivos móveis.
